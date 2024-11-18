@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>XUiLib</id>
+        <version>1.0.0</version>
+        <authors>hiemalix</authors>
+        <owners>hiemalix</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>VLESS Library for x-ui API interactions.</description>
+        <tags>VLESS x-ui</tags>
+    </metadata>
+</package>

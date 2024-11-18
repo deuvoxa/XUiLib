@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUiLib.Application", "XUiLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUiLib.Infrastructure", "XUiLib.Infrastructure\XUiLib.Infrastructure.csproj", "{369EEFB6-6C56-42D8-ABB4-0C06B969C571}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUiLib", "XUiLib\XUiLib.csproj", "{10A8B946-1F63-4E71-836D-9A6A962FCC8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{369EEFB6-6C56-42D8-ABB4-0C06B969C571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{369EEFB6-6C56-42D8-ABB4-0C06B969C571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369EEFB6-6C56-42D8-ABB4-0C06B969C571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A8B946-1F63-4E71-836D-9A6A962FCC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A8B946-1F63-4E71-836D-9A6A962FCC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A8B946-1F63-4E71-836D-9A6A962FCC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A8B946-1F63-4E71-836D-9A6A962FCC8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

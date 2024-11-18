@@ -35,7 +35,6 @@ public class InboundService(HttpClient httpClient, IAuthTokenProvider tokenProvi
     {
         var streamSettings = JsonDocument.Parse(inbound.StreamSettings).RootElement;
         var realitySettings = streamSettings.GetProperty("realitySettings");
-        var settings = JsonDocument.Parse(inbound.Settings).RootElement;
 
         var publicKey = realitySettings.GetProperty("settings").GetProperty("publicKey").GetString();
         var fingerprint = realitySettings.GetProperty("settings").GetProperty("fingerprint").GetString();

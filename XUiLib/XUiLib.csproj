@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>XUiLib</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>hiemalix</Authors>
+        <Company>hiemalix</Company>
+        <Description>Library for x-ui API interactions.</Description>
+        <PackageTags>x-ui</PackageTags>
+        <RepositoryUrl>https://github.com/deuvoxa/XUiLib</RepositoryUrl>
+        <IncludeReferencedProjects>true</IncludeReferencedProjects>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\XUiLib.Application\XUiLib.Application.csproj" PrivateAssets="All"/>
+        <ProjectReference Include="..\XUiLib.Domain\XUiLib.Domain.csproj" PrivateAssets="All"/>
+        <ProjectReference Include="..\XUiLib.Infrastructure\XUiLib.Infrastructure.csproj" PrivateAssets="All"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="..\XUiLib.Application\bin\Release\net8.0\XUiLib.Application.dll" Pack="true" PackagePath="lib/net8.0"/>
+        <Content Include="..\XUiLib.Domain\bin\Release\net8.0\XUiLib.Domain.dll" Pack="true" PackagePath="lib/net8.0"/>
+        <Content Include="..\XUiLib.Infrastructure\bin\Release\net8.0\XUiLib.Infrastructure.dll" Pack="true" PackagePath="lib/net8.0"/>
+    </ItemGroup>
+
+</Project>
